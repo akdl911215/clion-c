@@ -2,7 +2,7 @@
 
 int main() {
 
-    int nResult = 0x11223344;
+    int nResult = -0x11223344;
 //    printf("%d\n", nResult);
     printf("%X\n", nResult & 0xFFFF0000);
     printf("%X\n", nResult >> 16);
