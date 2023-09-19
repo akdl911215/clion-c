@@ -12,7 +12,7 @@ int main() {
     k = x++ || ++y && ++z;
     printf("%d %d %d %d\n", k, x, y, z);
     // expect: -1 0 0 2
-    // expect2:
+    // expect2: -1 0 -1 1
 
     return 0;
 }
