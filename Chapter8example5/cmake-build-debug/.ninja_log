@@ -1,0 +1,9 @@
+# ninja log v5
+0	30	1695546153008764917	CMakeFiles/Chapter8example5.dir/main.c.o	13d42f91ca9def0f
+30	76	1695546153054835318	Chapter8example5	d1de7a87a4ba2586
+1	32	1695546209252313787	CMakeFiles/Chapter8example5.dir/main.c.o	13d42f91ca9def0f
+32	75	1695546209295369788	Chapter8example5	d1de7a87a4ba2586
+0	34	1695546238450922408	CMakeFiles/Chapter8example5.dir/main.c.o	13d42f91ca9def0f
+34	76	1695546238495785399	Chapter8example5	d1de7a87a4ba2586
+1	32	1695546385595858996	CMakeFiles/Chapter8example5.dir/main.c.o	13d42f91ca9def0f
+32	74	1695546385637945170	Chapter8example5	d1de7a87a4ba2586
