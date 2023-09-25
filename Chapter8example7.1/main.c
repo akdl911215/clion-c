@@ -2,16 +2,19 @@
 
 int main() {
 
-    int x = 1, y = 5;
+    for (int i = 1; i <= 5; ++i) printf("%d\t", i);
+    printf("\n");
 
-    while (x != 25) {
+    for (int i = 10; i >= 6; --i) printf("%d\t", i);
+    printf("\n");
 
-        if ((x >= 1 && x <= 5) || (x >= 11 && x <= 15) || (x >= 21 && x <= 25)) {
-            printf("%d\t", x++);
-        } else {
-            
-        }
-    }
+    for (int i = 11; i <= 15; ++i) printf("%d\t", i);
+    printf("\n");
+
+    for (int i = 20; i >= 16; --i) printf("%d\t", i);
+    printf("\n");
+
+    for (int i = 21; i <= 25; ++i) printf("%d\t", i);
 
     return 0;
 }
