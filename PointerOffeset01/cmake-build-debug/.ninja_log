@@ -1,0 +1,9 @@
+# ninja log v5
+0	33	1696081972004255129	CMakeFiles/PointerOffeset01.dir/main.c.o	8a144fddc046a2db
+33	77	1696081972048388521	PointerOffeset01	2585f8a24e0a82fd
+1	35	1696082003437336818	CMakeFiles/PointerOffeset01.dir/main.c.o	8a144fddc046a2db
+35	79	1696082003481236089	PointerOffeset01	2585f8a24e0a82fd
+0	32	1696082013506845364	CMakeFiles/PointerOffeset01.dir/main.c.o	8a144fddc046a2db
+32	72	1696082013546774500	PointerOffeset01	2585f8a24e0a82fd
+1	37	1696082862606496822	CMakeFiles/PointerOffeset01.dir/main.c.o	8a144fddc046a2db
+37	83	1696082862652492388	PointerOffeset01	2585f8a24e0a82fd
