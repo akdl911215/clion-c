@@ -10,3 +10,4 @@ int main() {
 
     return 0;
 }
+// &szName > 16bb0b178
