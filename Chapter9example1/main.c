@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
 
@@ -11,8 +12,16 @@ int main() {
     printf("input name2 : ");
     gets(name2);
 
-    for(int i = 0; i < sizeof (name1); ++i) {
-        printf("%c", name1[i]);
+    int compare = strncmp(name1, name2, 1);
+    printf("%d\n", compare);
+
+    if (compare == 0)
+    {
+        printf("같음");
+    }
+    else
+    {
+        printf("다름");
     }
 
     return 0;
