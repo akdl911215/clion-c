@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <malloc/malloc.h>
 
 int main() {
 
@@ -10,15 +11,27 @@ int main() {
     printf("nInput : ");
     scanf("%d", &nInput);
 
+    if (nInput < 10) {
+        nInput = 10;
+    } else if (nInput > 100) {
+        nInput = 100;
+    }
+
     printf("%u\n", nInput);
 
-    pszData = (char*)malloc(sizeof (char) * nInput);
-    printf("pszData: %d\n", pszData);
-    printf("sizeof(%d)\n", sizeof pszData);
+    pszData = (char *)malloc(sizeof (char) * nInput);
+    printf("pszData: %p\n", &pszData);
+    printf("sizeof(%d)\n", sizeof (*pszData));
 
+    printf("%d\n", malloc_size(pszData) / sizeof (*pszData));
+
+    *pszData = 10;
+
+    free(pszData);
     return 0;
 }
 // 10,000,000,000,000
+
 
 // unsigned integer
 // 4,294,967,295
